@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Free Code Camp Project—Request Header Parser Microservice</title>
+    <meta name="Honman" content="This page was created in fulfilment of the Request Header Parser Microservice project of the Free Code Camp Curriculum.">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 class="text-center">
+          Request Header Parser API
+        </h1>
+      </header>
+      
+      <section class="text-center">
+        <p>
+          This is a simple API that returns some of the information included in the HTTP request header sent through by your browser.  It has been teseted using Safari, mobile Safari, Chrome and Firefox on Mac OS X.  Support for Opera, Edge, and Internet Explorer and other systems were added but have not been fully tested.
+        </p>
+        <h3>
+          API Call:
+        </h3>
+        <code>http://honmanyau-header-parser-api/whoami</code>
+        <h3>
+          Example Output:
+        </h3>
+        <code>{"ipaddress":"100.100.100.10","language":"en-US","system":"Macintosh; Intel Mac OS X 10.12","browser":"Firefox","browserversion":"53.0"}</code>
+      </section>
+      
+      <section class="text-center">
+        <h3>
+          Information from Your Browser:
+        </h3>
+        <ul id="user-info">
+        </ul>
+      </section>
+      
+      <footer class="row">
+        <p>
+          <a href="#"><i class="fa fa-twitter"></i></a>&nbsp;
+          <a href="#"><i class="fa fa-facebook-official"></i></a>&nbsp;
+          <a href="#"><i class="fa fa-google-plus-official"></i></a>&nbsp;
+          <a href="#"><i class="fa fa-linkedin"></i></a>&nbsp;
+          <a href="#"><i class="fa fa-github"></i></a>&nbsp;
+          <a href="#"><i class="fa fa-codepen"></i></a>&nbsp;
+          <a href="#"><i class="fa fa-envelope-o"></i></a>
+        </p>
+        <p>This page was created in fulfilment of the Request Header Parser Microservice project of the Free Code Camp Curriculum</p>
+      </footer>
+    </main>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
+
